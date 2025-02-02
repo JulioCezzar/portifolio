@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    padding-top: 50px;
+    background: black;
+    color: white;
+    }
+
+nav {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    z-index: 1000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+background-color: #333;
+    }
+        .logo {
+            color: white;
+            font-weight: bold;
+            margin-left: 20px; /* Espaçamento da logo à esquerda */
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            margin-left: auto;
+        }
+
+        nav ul li {
+            margin: 0 8px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .home-titulo {
+            height: 100vh;  
+            display: flex;
+            flex-direction: column;
+            justify-content: center;   /* Centraliza verticalmente */
+            align-items: flex-start;   /* Alinha o conteúdo à esquerda */
+            padding-left: 50px;        /* Afastamento do lado esquerdo */
+        }
+        
+        .home-titulo h1 {
+            margin-bottom: 2px;  /* Espaço entre o título e o subtítulo */
+            font-size: 40px;
+        }
+        
+        .home-titulo h3 {
+            margin-bottom: 2px; /* Espaço entre o subtítulo e a linha */
+            font-size: 25px;
+            font-weight: normal;
+        }
+        
+        .divider {
+            width: 500px;
+            border: none;
+            border-top: 2px solid white; /* Linha divisória */
+            margin: 15px 0;  /* Espaço acima e abaixo da linha */
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 10px;  /* Espaço entre os botões */
+        }
+        
+        .buttons button {
+            padding: 10px 45px;
+            margin: 0px 40px;
+            font-size: 16px;
+            color: rgb(68, 145, 233);
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .buttons button:hover {
+            background-color: #555;
+        }
+        
+.sobre-min {
+    margin: 20px;
+    }
+
